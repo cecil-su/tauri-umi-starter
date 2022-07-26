@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PORT=2000 umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.1",
+    "umi": "^4.0.5"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.1.2"
+  }
+}
